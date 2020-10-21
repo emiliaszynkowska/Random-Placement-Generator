@@ -1,17 +1,16 @@
 using System;
-using UnityEngine;
 
 public class Room 
 {
     // Coordinates
-    public int x1;
-    public int x2;
-    public int y1;
-    public int y2;
+    public readonly int x1;
+    public readonly int x2;
+    public readonly int y1;
+    public readonly int y2;
     // Dimensions
-    public int w;
-    public int h;
-    public (int, int) c;
+    public readonly int w;
+    public readonly int h;
+    public readonly (int, int) c;
 
     public Room(int x, int y, int w, int h)
     {
